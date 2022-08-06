@@ -1,0 +1,24 @@
+:root{
+  --primary-color:#FFFFFF;
+  --primary-color-2:#e5eae8;
+  --secondary-color:#f6c700;
+  --accent-color:#008080
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--primary-color)
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.linkMargin{
+    margin-right: 15px;
+}

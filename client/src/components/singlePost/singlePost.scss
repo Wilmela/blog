@@ -1,0 +1,97 @@
+.singlePost {
+  width: 75%;
+}
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+}
+.singlePostTitleInput {
+  width: 80%;
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  color: lightgray;
+
+  display: flex;
+  flex-direction: column;
+  &:focus {
+    outline: none;
+  }
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+  &:first-child{
+  color: teal;
+
+  }
+  &:last-child{
+  color: red;
+
+  }
+}
+
+.singPostInfo {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #b39656;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  &::first-letter {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.singlePostDescInput {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  color: lightgray;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  &:focus {
+    outline: none;
+  }
+}
+.singPostButton {
+  width: 100px;
+  border: none;
+  background: teal;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 3%;
+  margin-top: 20px;
+
+  cursor: pointer;
+}
